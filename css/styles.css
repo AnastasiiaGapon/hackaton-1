@@ -1,0 +1,36 @@
+html,
+body {
+    height: 100vh;
+}
+
+.site-main {
+    flex: 1;
+}
+
+.footer {
+    background: #424242;
+    color: #efefef;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+    background-color: #5bc0de;
+}
+
+.custom-control-input:focus~.custom-control-indicator {
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #5bc0de;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #5bc0de;
+}
+
+.form-control:focus {
+    border-color: #5bc0de;
+}
+
+/*Color utilities classes*/
+.grey-lighten-3 {
+    background: #eee;
+}
